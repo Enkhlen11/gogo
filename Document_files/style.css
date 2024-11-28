@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+.header {
+  background-color: black;
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+}
+.trip h1 {
+  font-family: "montserrat";
+  font-size: 72px;
+  font-weight: 700;
+  color: #303030;
+}
+.trip {
+  margin-top: 120px;
+  text-align: center;
+  color: #ababab;
+}
+.images img {
+  width: 284px;
+  height: 400px;
+  border-radius: 12px;
+}
+.images {
+  display: flex;
+  gap: 21px;
+  margin-top: 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.detail {
+  display: flex;
+  justify-content: center;
+  margin-top: 197px;
+  margin-left: 120px;
+  margin-right: 120px;
+  flex-wrap: wrap;
+  margin-bottom: 240px;
+}
+.text12 {
+  margin-bottom: 80px;
+}
+.text1 {
+  font-family: "montserrat";
+  font-weight: 700;
+  color: #ababab;
+  font-size: 24px;
+}
+.text2 {
+  font-family: "montserrat";
+  font-weight: 700;
+  font-size: 48px;
+  color: #303030;
+}
+.tourmap img {
+  width: 692px;
+  height: 845px;
+  margin-left: 150px;
+}
+.circle {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #1d1f24;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-right: 16px;
+}
+.d1 {
+  width: 21px;
+  height: 21px;
+  color: #16a94a;
+  display: flex;
+}
+.circle1 {
+  display: flex;
+}
+.pricetext {
+  max-width: 299px;
+}
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pricetext1 {
+  font-family: "montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  color: #ababab;
+  text-align: center;
+}
+.pricetext2 {
+  font-family: "montserrat";
+  font-weight: 700;
+  font-size: 48px;
+  color: #303030;
+  text-align: center;
+}
+.boxprice {
+  display: flex;
+  gap: 20px;
+}
+.boxprice1 {
+  font-family: "montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  color: #303030;
+}
+.boxprice1 p {
+  font-family: "montserrat";
+  font-weight: 500;
+  font-size: 20px;
+  color: #777777;
+}
+.boxprice1 h2 {
+  font-family: "montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  color: #777777;
+}
+.boxprice2 {
+  font-family: "montserrat";
+  font-weight: 500;
+  font-size: 24px;
+  color: #777777;
+}
+.boxprice3 {
+  font-family: "montserrat";
+  font-weight: 700;
+  font-size: 32px;
+  color: #303030;
+}

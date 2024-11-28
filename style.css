@@ -1,0 +1,64 @@
+.first {
+  display: flex;
+  margin-bottom: 5px;
+}
+.first1 img {
+  width: 500px;
+  height: 300px;
+}
+.first2 {
+  background-color: black;
+  width: 170px;
+  height: 270px;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+.second {
+  display: flex;
+  gap: 5px;
+  position: relative;
+}
+.image1 img {
+  width: 220px;
+  height: 200px;
+}
+
+.image2 img {
+  width: 220px;
+  height: 200px;
+}
+.image3 img {
+  width: 220px;
+  height: 200px;
+}
+.image1 {
+  position: relative;
+}
+.image2 {
+  position: relative;
+}
+.image3 {
+  position: relative;
+}
+.image1 div {
+  position: absolute;
+  bottom: 0;
+  color: rgb(253, 253, 253);
+  background-color: rgba(0, 0, 0, 0.498);
+}
+.image2 div {
+  position: absolute;
+  bottom: 0px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(3, 3, 3, 0.419);
+}
+.image3 div {
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.366);
+}
+.image1 div:hover {
+  background-color: rgba(0, 0, 0, 0.747);
+}
